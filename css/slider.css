@@ -1,0 +1,190 @@
+@charset "utf-8";
+.contenedor-slider {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  margin: 1% 0%;
+  top: 60px;
+  left: 8.5%; 
+}
+.slider, .slider15 {
+  display:flex;
+  /*height: 100%;*/
+  width: 400%; /*Cambiar el ancho de acuerdo a la cantidad de imágenes, por ejm 10 imagenes = 1000%*/
+
+}
+.slider2 {
+  display:flex;
+  /*height: 100%;*/
+  width: 1500%; /*Cambiar el ancho de acuerdo a la cantidad de imágenes, por ejm 10 imagenes = 1000%*/
+
+}
+.slider3 {
+  display:flex;
+  /*height: 100%;*/
+  width: 1100%; /*Cambiar el ancho de acuerdo a la cantidad de imágenes, por ejm 10 imagenes = 1000%*/
+
+}
+.slider4 {
+  display:flex;
+  /*height: 100%;*/
+  width: 1100%; /*Cambiar el ancho de acuerdo a la cantidad de imágenes, por ejm 10 imagenes = 1000%*/
+
+}
+.slider5 {
+  display:flex;
+  /*height: 100%;*/
+  width: 600%; /*Cambiar el ancho de acuerdo a la cantidad de imágenes, por ejm 10 imagenes = 1000%*/
+
+}
+.slider6 {
+  display:flex;
+  /*height: 100%;*/
+  width: 200%; /*Cambiar el ancho de acuerdo a la cantidad de imágenes, por ejm 10 imagenes = 1000%*/
+
+}
+.slider7 {
+  display:flex;
+  /*height: 100%;*/
+  width: 200%; /*Cambiar el ancho de acuerdo a la cantidad de imágenes, por ejm 10 imagenes = 1000%*/
+
+}
+/*comienzan sliders de la sección de hembras*/
+.slider8 {
+  display:flex;
+  /*height: 100%;*/
+  width: 300%; /*Cambiar el ancho de acuerdo a la cantidad de imágenes, por ejm 10 imagenes = 1000%*/
+}
+.slider9 {
+  display:flex;
+  /*height: 100%;*/
+  width: 800%; /*Cambiar el ancho de acuerdo a la cantidad de imágenes, por ejm 10 imagenes = 1000%*/
+}
+.slider10 {
+  display:flex;
+  /*height: 100%;*/
+  width: 500%; /*Cambiar el ancho de acuerdo a la cantidad de imágenes, por ejm 10 imagenes = 1000%*/
+}
+.slider11 {
+  display:flex;
+  /*height: 100%;*/
+  width: 200%; /*Cambiar el ancho de acuerdo a la cantidad de imágenes, por ejm 10 imagenes = 1000%*/
+}
+.slider12, .slider13, .slider14, .slider16 {
+  display:flex;
+  /*height: 100%;*/
+  width: 200%; /*Cambiar el ancho de acuerdo a la cantidad de imágenes, por ejm 10 imagenes = 1000%*/
+}
+
+
+.slider__section {
+  width: 100%;
+    
+}
+.slider__img {
+  position: absolute;
+  width: 300px;
+  /*height: 100%;*/
+  overflow: hidden;
+  
+}
+.btn-prev, .btn-next {
+  width: 40px;
+  height: 40px;
+  /*background: rgba(255, 255, 255, 0.1);*/
+  position: fixed;
+  top: 20%;
+  /*transform: translateY(-50%);*/
+  line-height: 44px;
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index:3;
+  color: rgba(255, 255, 255, 0.8);
+}
+.btn-prev:hover, .btn-next:hover {
+  background: rgba(255, 255, 255, 1);
+  color: #000000;
+}
+.btn-prev {
+  left: 10px;
+  top: 200px;
+}
+.btn-next {
+  right: 10px;
+  top: 200px;
+}
+@media (min-width:480px){
+	.contenedor-slider{
+		left: 6.5%;
+		}
+	.slider__img {
+		width: 420px;
+		}
+	.btn-prev {
+  		
+  		top: 250px;
+		}
+	.btn-next {
+  		
+  		top: 250px;
+		}
+	
+	}
+@media (min-width:768px){
+	.contenedor-slider{
+		left: 4%;
+		}
+	.slider__img {
+		width: 708px;
+		}
+	.btn-prev {
+  		
+  		top: 350px;
+		}
+	.btn-next {
+  		
+  		top: 350px;
+		}
+	
+	}
+@media (min-width:960px){
+	.contenedor-slider{
+		left: 25%;
+		}
+	.slider__img {
+		width: 50%;
+		}
+	.btn-prev {
+  		left: 26.5%;
+  		top: 50%;
+		}
+	.btn-next {
+  		right: 26.5%;
+  		top: 50%;
+		}
+	
+	}
+@media (min-width:1024px){
+		.btn-prev, .btn-next{
+		top: 33%;
+			}
+	}
+@media (min-width:1280px){
+		.btn-prev, .btn-next{
+		top: 50%;
+			}
+	}
+@media (min-width:1600px){
+		.btn-prev, .btn-next{
+		top: 38%;
+			}
+	}
+@media (min-width:1920px){
+		.btn-prev, .btn-next{
+		top: 45%;
+			}
+	}
+

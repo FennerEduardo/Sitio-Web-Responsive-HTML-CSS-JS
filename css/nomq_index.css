@@ -1,0 +1,68 @@
+	#muse_css_mq
+	{
+		background-color: #FFFFFF;
+	}
+
+	#bp_infinity.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 435px;
+		padding-top: 45px;
+		padding-bottom: 20px;
+		max-width: 960px;
+	}
+
+	#u264
+	{
+		width: 20.84%;
+		margin-left: 39.59%;
+	}
+
+	#u114-12
+	{
+		min-height: 53px;
+		margin-top: 36px;
+		width: 46.88%;
+		margin-left: 26.57%;
+	}
+
+	#u183
+	{
+		margin-top: 106px;
+		width: 28.55%;
+		margin-left: 35.73%;
+	}
+
+	#u119
+	{
+		width: 14.6%;
+	}
+
+	#u134
+	{
+		width: 14.6%;
+		left: 21.17%;
+	}
+
+	#u127
+	{
+		width: 14.6%;
+		left: 42.71%;
+	}
+
+	#u141
+	{
+		width: 14.6%;
+		left: 63.51%;
+	}
+
+	#u148
+	{
+		width: 14.6%;
+		left: 85.41%;
+	}
+

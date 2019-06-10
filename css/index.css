@@ -1,0 +1,275 @@
+@charset "utf-8";
+
+.contenedor{
+	width: 100%;
+		}
+#banner{
+	margin-top: 40px;
+	position: relative;
+	
+	}
+#banner section{
+	width: 100%;
+	margin-bottom: 25px;
+	}
+.fondo{
+	width: 100%;
+	height: 100%;
+	}
+#logo-movil{
+	position: absolute;
+	width: 193px;
+	float: right;
+	top: 0%;
+	right: 0%;
+	}
+#logo{
+	position: absolute;
+	width: 110px;
+	float: right;
+	top: 0%;
+	right: 0%;
+	display: none;
+	}
+#perro{
+	width: 220px;
+	position: absolute;
+	bottom: 3.5%;
+	left: 0%;
+	
+	}
+#banner .contenedor{
+	/*position: absolute;
+	top: 40%;*/
+	}
+#raza{
+	margin: 60px 60px ;
+	text-align: center;
+	position: relative;
+	}
+.tit-ppal{
+	background-color: #80B53D;
+	color: #FFFFFF;
+	padding: 30px;
+	width: 100%;
+	margin: -10px 0px 0px 0px;
+	text-align: center;
+	}
+.tit-ppal p{
+	font-size: 20px;
+	margin: 0;
+	}
+h1{
+	font-family: "nyala";
+	font-size: 40px;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 400;
+	}
+#raza p{
+	z-index: 100;
+	position: relative;
+	font-size: 20px;
+	color: #909090;
+	
+	}
+#abre{
+	position: absolute;
+	top: 0px;
+	left: -20px;
+	z-index: 5;
+	background: url(../img/com-open.png) ;
+	width: 37px;
+	height: 24px;
+	}
+#cierra{
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	background: url(../img/com-close.png) ;
+	width: 37px;
+	height: 24px;
+	}
+
+@media (min-width:360px){
+	#logo-movil{
+	
+	width: 217px;
+		}
+	#abre{
+		
+		}
+	#cierra{
+	right: 0px;	
+		}
+	}
+@media (min-width:480px) {
+	#logo-movil{
+	
+	width: 290px;
+		}
+#perro{
+	width: 300px;
+	position: absolute;
+	bottom: 2.5%;
+	left: 3% ;
+	 
+	}
+#cierra{
+	right: 120px;
+	}	
+	}
+@media (min-width:768px) {
+	#logo-movil{
+	top: 0%;
+	width: 462px; 
+		}
+	#perro{
+	width: 450px;
+	position: absolute;
+	bottom: 1.7%;
+	left: 2%
+	}
+	
+	#raza p{
+	
+	font-size: 24px;
+	
+	}
+	#cierra{
+	
+	right: 30px;
+	}
+	}
+@media (min-width:960px) {
+	#logo-movil{
+		display:none;
+		}
+	#logo{
+	display: block;
+	position: absolute;
+	width: 56.7%;
+	float: right;
+	top: 0%;
+	right: 0%;
+	}
+#perro{
+	width: 580px;
+	position: absolute;
+	bottom: 1.4%;
+	left: 3%
+	}
+#cierra{
+	right: 320px;
+	}
+	}
+
+@media (min-width:1024px) {
+.fondo{
+	margin: -210px 0px 0px 0px;
+	}	
+#logo{
+	position: absolute;
+	width: 41.8%;
+	float: right;
+	
+	}
+#perro{
+	width: 580px;
+	position: absolute;
+	bottom: 1.3%;
+	left: 5%
+	}
+#raza p{
+	margin: 40px 150px;
+	
+	}
+#abre{
+	margin-top: 20px;
+	left:120px;
+	}
+#cierra{
+	top: 140px;
+	right: 150px;
+	}
+	}
+@media (min-width:1280px) {
+.fondo{
+	margin: -400px 0px 0px 0px;
+	}	
+#logo{
+	width: 30%;
+	
+	}
+#perro{
+	width: 580px;
+	position: absolute;
+	bottom: 1.7%;
+	left: 5%
+	}
+#cierra{
+	right: 530px;
+	}
+	
+	}
+@media(min-width:1366px){
+	#logo{
+	
+	width: 31.4%;
+	
+	}
+	}
+@media(min-width:1440px){
+	#logo{
+	
+	width: 33%;
+	
+	}
+	#cierra{
+	top: 110px;
+	right: 250px;
+	}
+	
+	}
+@media (min-width:1600px) {
+.fondo{
+	margin: -400px 0px 0px 0px;
+	}	
+#logo{
+	
+	width: 35.5%;
+	
+	}
+#perro{
+	width: 650px;
+	position: absolute;
+	bottom: 1.3%;
+	left: 15%
+	}
+#raza p{
+	margin: 40px 250px;
+	}
+#abre{
+	left:230px;
+	}
+#cierra{
+	top: 115px;
+	right:21%;
+	}
+	
+	}
+@media (min-width:1700px){
+	#cierra{
+		right: 35%;
+		}
+	#perro{
+		width: 900px;
+		bottom: 0.9%;
+		}
+	#logo{
+		width:39%;
+				}
+	}
+
+
+

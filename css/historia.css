@@ -1,0 +1,430 @@
+@charset "utf-8";
+.cont-historia{
+	/*background-image:url(../img/huellas.png);*/
+	
+	}
+a.open{
+	
+	text-shadow: 2px 2px 0px #000000;
+	transition: background-color 1s;
+	}
+a.open:hover{
+	/*background-color: #111111;*/
+	}
+div.modalDialog{
+	background-color: rgba(0,0,0,0.5);
+	bottom:0;
+	top:0;
+	left:0;
+	right:0;
+	opacity: 0;
+	position: absolute;
+	z-index: 4;
+	transition: opacity 1s;
+	display:none;
+	}
+div.modalDialog:target{
+	opacity: 1;
+	display: block;
+	}
+a.close{
+	background-color: #4F8700;
+	border-radius: 25px;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 22px;
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	text-align: center;
+	text-decoration: none;
+	width: 32px;
+	cursor: pointer;
+	padding: 5px 5px 3px 5px;
+	}
+a.close:hover{
+	background-color: #000000;
+	}
+section.modal{
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 10px #000000;
+	border-radius: 5px;
+	color: #333333;
+	padding: 20px;
+	top: 60px;
+	left: -5px;
+	right: 0px;
+	bottom: 0px;
+	position: absolute;
+	width: 280px;
+	}
+#openmodal1 h2, #openmodal2 h2{
+	color: #4F8700;
+	font-size: 24px;
+	background: none;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+	line-height: 20px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	position: relative;
+	}
+#openmodal1 p, #openmodal2 p{
+	font-family: majalla; 
+	color: #333333;
+	font-size: 18px;
+	padding: 20px 0px 0px 0px;
+	margin: 10px 0px 0px 0px;
+	text-align: justify;
+	line-height: 16px;	
+	font-weight: 100;
+	}
+#openmodal1 strong, #openmodal2 strong{
+	color: #4F8700;
+	font-size: 18px;
+		}
+.img-raza{
+	width: 240px;
+	margin: 10px 0px 10px 0px;
+	}
+.cont-historia{
+	padding: 60px 0px 0px 0px;
+	margin: 0px 0px 0px 10px;
+	}
+.cont-historia section{
+	margin: 20px 25px;
+	display: inline-block;
+	position: relative;	
+	/*background-image:url(../img/huellas.png);*/
+	}
+.seccion{
+	width: 250px;
+	
+		}
+.btn-mas{
+	width: 45px;
+	position: absolute;
+	top: 116px;
+	right: -23px;
+	}
+.cont-historia h2{
+	color: #FFFFFF;
+	position: absolute;
+	top: 110px;
+	font-size:16px;
+	font-weight: normal;
+	background-color: rgba(30,30,30,0.50);
+	padding: 5px 150px 5px 10px;
+	
+	
+	}
+#jssor_1{
+	position: relative; 
+	 margin: 0 auto;
+	 padding: 20px 0px 50px 0px;	  
+	 top: 30px; 
+	 left: 0px; 
+	 width: 300px; 
+	 height: 300px; 
+	 overflow: hidden; 
+	 visibility: hidden;
+	 background-image: url(../img/huellas.png);
+	}
+#jssor_2{
+	 position: relative; 
+	 margin: 0 auto;
+	 padding: 20px 0px 50px 0px;	  
+	 top: 30px; 
+	 left: 0px; 
+	 width: 300px; 
+	 height: 300px; 
+	 overflow: hidden; 
+	 visibility: hidden;
+	 background-image: url(../img/huellas.png);
+	 
+	}
+.slider1{
+	width: 320px;
+	position: absolute; 
+	top: 0px;
+	left: 0px;
+	 background-image: url(../img/huellas.png);
+	}
+.slider2{
+	filter: alpha(opacity=70);
+	 opacity: 0.7; 
+	 position: absolute; 
+	 display: block; 
+	 top: 0px; 
+	 left: -30px;
+	 width: 100%;
+	 height: 100%;
+	 background-image: url(../img/huellas.png);
+	}
+.slider3{
+	position:absolute; 
+	display:block;
+	background:url('img/loading.gif') no-repeat center center;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	}
+.slider4{
+	cursor: default; 
+	position: relative;
+	top: 0px;
+	left: 0px; 
+	width: 300px; 
+	height:300px; 
+	overflow: hidden;
+	}
+.slider4 div{
+	width: 300px;
+	height: 300px;
+			}
+.slider4 div img{
+	padding: 0px 0px 50px 20px;
+	}
+.pie-historia{
+	height: 60px;
+	background-image:url(../img/huellas.png);
+	}
+#his-ppal{
+	width: 240px;
+	margin: 20px 0px 0px 0px;
+	box-shadow: 0px 0px 10px #000000;
+	}
+#openmodal1 .nombres{
+	text-align: center;
+	font-size: 20px;
+	color: #4F8700;
+	padding: 30px;
+	}
+.logo-h{
+	width: 130px;
+	margin: 20px 0px 0px 80px;
+	}
+#openmodal2 .verde{
+	color: #4F8700;
+	padding: 30px;
+	background-image:url(../img/huellas.png);
+	}
+#openmodal2 cite{
+	color: #808080;
+	font-size: 12px;
+	text-align:center;
+	margin: -60px 0px 60px 10px;
+	line-height: 50px;
+	}
+@media (min-width:360px){
+	section.modal{
+		width: 320px;
+		}
+	#his-ppal{
+		width: 280px;
+		}
+	.cont-historia{
+		margin: 0px 0px 0px 30px; 
+		}
+		.img-raza{
+	width: 280px;
+		}
+	}
+@media (min-width:480px) {
+	.cont-historia section{
+		width: 380px;
+		}
+	.seccion{
+	width: 360px;
+	
+		}
+	.btn-mas{
+	width: 60px;
+	top: 188px;
+	right: -3px;
+	}
+	.cont-historia h2{
+	top: 180px;
+	font-size:18px;
+	font-weight: normal;
+	padding: 10px 245px 10px 25px;
+	
+	
+	}
+	section.modal{
+		width: 440px;
+		}
+	#jssor_1{
+		width: 380px;
+		}
+	#jssor_2{
+		width: 380px;
+		}
+	.slider4{
+		width: 380px;
+		}
+	#his-ppal{
+		width: 400px;
+		}
+	#logo-h{
+	width: 130px;
+	margin: 20px 0px 0px 140px;
+	}
+ 	.img-raza{
+	width: 390px;
+	margin: 10px 0px 10px 5px;
+	}
+	}
+@media (min-width:768px){
+	.cont-historia{
+		margin: 0px 0px 0px 45px;
+		}
+	.cont-historia section{
+		width: 300px;
+		margin: 20px 20px;
+		}
+	.seccion{
+	width: 300px;
+			}	
+	.btn-mas{
+	width: 50px;
+	top: 142px;
+	right: -25px;
+	}
+	.cont-historia h2{
+	top: 130px;
+	font-size:18px;
+	font-weight: normal;
+	padding: 10px 183px 10px 25px;
+	
+	
+	}
+	section.modal{
+		width: 725px;
+		}
+	#jssor_1{
+		width: 648px;
+		}
+	#jssor_2{
+		width: 648px;
+		}
+	.slider4{
+		width: 648px;
+		}
+	#his-ppal{
+		width: 648px;
+		margin: 40px 0px 0px 20px;
+		}
+	.logo-h{
+	width: 130px;
+	margin: 60px 0px 0px 280px;
+	}
+ 	.img-raza{
+	width: 310px;
+	margin: 10px 0px 10px 10px;
+	}
+	.izquierdo{
+		float:left;
+		width: 50%;
+		padding: 30px 20px 10px 40px;
+		}
+	.derecho{
+		float: right;
+		width: 50%;
+		padding: 30px 40px 10px 20px;
+		}
+	#openmodal1 p, #openmodal2 p{
+		
+		font-size: 20px;
+		line-height: 20px;
+		}
+	#openmodal1 h2, #openmodal2 h2{
+	top: 10px;
+	font-size:36px;
+	font-weight: normal;
+	padding: 40px 0px 30px 25px;
+		}
+	#openmodal2 .verde{
+		padding: 20px 30px 0px 30px;
+		background-image: none;
+				}
+	.inter-historia{
+		width: 100%;
+		height: 80px;
+		float: left;
+		background-image: url(../img/huellas.png);
+		}
+	
+	}
+@media (min-width:960px){
+	.cont-historia{
+		width: 960px;
+		margin: 0 auto;
+		padding: 50px 30px 60px 30px;
+		/*box-shadow: 0px 0px 10px #000000;*/
+			}
+	.cont-historia section{
+		width: 350px;
+		margin: 30px 40px;
+			}
+	.seccion{
+		width: 350px;
+			}
+	.btn-mas{
+		width: 60px;
+		top: 170px;
+		right: -35px;
+			}
+	.cont-historia h2{
+		top: 160px;
+		font-size:20px;
+		font-weight: normal;
+		padding: 10px 228px 10px 20px;
+		}
+	section.modal{
+		width: 910px;
+		left: -1.5%;
+		}
+	#jssor_1{
+		width: 820px;
+		}
+	#jssor_2{
+		width: 820px;
+		}
+	.slider4{
+		width: 820px;
+		}
+	#his-ppal{
+		width: 800px;
+		margin: 40px 0px 0px 40px;
+		}
+	.logo-h{
+	width: 130px;
+	margin: 60px 0px 0px 370px;
+	}
+	.img-raza{
+	width: 350px;
+	margin: 20px 0px 10px 10px;
+	}
+	
+		}
+@media (min-width:1024px){
+		section.modal{
+		width: 910px;
+		left: 2%;
+		}
+	}
+		
+@media (min-width:1281px){
+	.cont-historia{
+		padding: 90px 30px 40px 30px;
+		height: 500px;
+			}
+	section.modal{
+		width: 910px;
+		left: 22%;
+		}
+}

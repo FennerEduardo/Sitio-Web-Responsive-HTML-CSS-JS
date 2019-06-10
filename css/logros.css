@@ -1,0 +1,41 @@
+@charset "utf-8";
+#con-logros{
+	width: 300px;
+	margin: 20px 0px 40px 0px;
+	position: relative;
+	padding: 10px 10px 30px 10px;
+	top: 50px;
+	left: 10px;
+	bottom: 20px;
+	}
+@media (min-width:360px){
+	#con-logros{
+		padding: 0px 0px 30px 0px;
+		width: 320px;
+		left: 20px; 
+		}
+	}
+@media (min-width:480px){
+	#con-logros{
+		width: 430px;
+		left: 25px; 
+		}
+	}
+@media (min-width:768px){
+	#con-logros{
+		width: 500px;
+		left: 17%; 
+		}
+	}
+@media (min-width:960px){
+	#con-logros{
+		width: 600px;
+		left: 25%; 
+		}
+	}
+@media (min-width:1280px){
+	#con-logros{
+		width: 600px;
+		left: 35%; 
+		}
+	}
